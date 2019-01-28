@@ -1,0 +1,45 @@
+
+
+
+  
+  td div {
+    margin: 0 auto;
+    height: 80px;
+    width: 80px;
+    border-radius: 20%;
+    pointer-events: none;
+    background-color: green;
+    
+  }
+  
+  tr td:nth-child(2) {
+    border-left: 4px dashed red;
+    border-right: 4px dashed red;
+  }
+  
+  tr:nth-child(2) td {
+    border-top: 4px dashed red;
+    border-bottom: 4px dashed red;
+  }
+  
+
+body {
+    /*background-color: green;*/
+    text-align: center;
+    color: red;
+    margin: 0 auto;
+    
+}
+
+body table{
+    margin: 0 auto;
+}
+
+#player1, #player2{
+    margin: 20px;
+    font-size: 30px;
+    
+}
+
+
+
